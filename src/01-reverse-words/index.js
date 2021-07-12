@@ -8,5 +8,6 @@
 // Explain: The function below is doing linear passes through the string
 
 module.exports = function reverseWordsInSentence(input) {
-  return input.split("").reverse().join("").split(" ").reverse().join(" ");
+  var wordInput = input.split("").reverse().join("");
+  return wordInput.split(" ").reverse().join(" ");
 };
