@@ -33,17 +33,7 @@ The expected output is:
     "url": "http://swapi.dev/api/people/1/"
 }
  */
-// console.log('hello world');
-//
 
-// axios.get('https://swapi.dev/api/people/1/')
-//   .then(response => {
-//     console.log(response.data.url);
-//     console.log(response.data);
-//   })
-//   .catch(error => {
-//     console.log(error);
-//   });
 module.exports = async function fetchLukeSkywalker() {
   const axios = require('axios');
 
